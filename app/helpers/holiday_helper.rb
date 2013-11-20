@@ -1,0 +1,2 @@
+module HolidayHelper
+end

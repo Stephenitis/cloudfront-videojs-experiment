@@ -1,0 +1,59 @@
+// Place all the styles related to the holiday controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  margin: 0;
+}
+#awesome_video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+.container{
+  z-index: 1;
+  width:100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  vertical-align: center;
+  text-align: center;
+  h1 { 
+    font-size: 8em;
+    vertical-align: center;
+    text-align: center;
+    font-family: 'Ruthie', cursive;
+    color:white;
+    margin-bottom: 0;
+  }
+  small{
+    color:white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3em;
+  }
+}
+
+footer{
+  z-index: 1;
+  position: fixed;
+  bottom:0;
+  color:#444444;
+  a{
+    color:#444444;
+    text-decoration: none;
+  }
+}
+
+.stroke
+{
+  color: #e2e2e2;
+  text-shadow:
+  -1px -1px 0 #a5a5a5,
+  1px -1px 0 #a5a5a5,
+  -1px 1px 0 #a5a5a5,
+  1px 1px 0 #a5a5a5;  
+}

@@ -1,0 +1,20 @@
+<div class="container">
+  <h1 class="stroke" hidden>The Past is only the Future with the Lights On.</h1>
+</div>
+
+
+</div>
+    <video id="awesome_video" autoplay loop muted>
+      <source src="https://s3.amazonaws.com/stephenitis/SlowLeavesWebm.webm" type="video/mp4">
+      <source src="https://s3.amazonaws.com/stephenitis/SlowLeavesWebm.webm" type="video/mp4">
+      <source src="https://s3.amazonaws.com/stephenitis/SlowLeavesWebm.webm" type="video/mp4">
+    </video>
+</div>
+
+<footer> video credit to : <a href="http://www.beachfrontbroll.com/"> beachfrontbroll</a>
+  <%= form_tag "/welcome_email", {:class => "form", :hidden => true} do |f| %>
+  <%= text_field_tag :name %>
+  <%= email_field_tag :email %>
+  <%# f.submit  %>
+  <%  end %>
+</footer>
