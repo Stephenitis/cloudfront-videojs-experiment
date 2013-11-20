@@ -4,18 +4,15 @@
   <title>StephenHoliday</title>
   <link href='http://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <script type="text/javascript">
-  document.createElement('video');document.createElement('audio');
-</script>
-    <link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
-<script src="//vjs.zencdn.net/4.2/video.js"></script>
+  <link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/4.2/video.js"></script>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>
