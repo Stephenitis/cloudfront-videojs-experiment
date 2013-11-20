@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   $("h1").fadeIn( 3000, function() {
     $("h1").delay(2000).fadeOut(2000, function() {
-      $("h1").html("Was bored sitting in class...</br> so I made this").fadeIn( 4000, function() {
+      $("h1").html("This was slightly harder</br> than it seamed").fadeIn( 4000, function() {
         $("h1").delay(2000).fadeOut(2000, function() {
           $("h1").html("Looking forward to </br> seeing you next").fadeIn( 4000, function() {
             $("h1").delay(2000).fadeOut(2000, function() {

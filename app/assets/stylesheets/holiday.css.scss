@@ -4,6 +4,7 @@
 body{
   margin: 0;
 }
+
 #awesome_video{
 position: absolute;
 top: 0;
@@ -21,6 +22,10 @@ width: 100%;
   min-height: 100%;
   vertical-align: center;
   text-align: center;
+  a{
+    color:#444444;
+    text-decoration: none;
+  }
   h1 { 
     font-size: 8em;
     vertical-align: center;
@@ -48,8 +53,7 @@ footer{
   }
 }
 
-.stroke
-{
+.stroke {
   color: #e2e2e2;
   text-shadow:
   -1px -1px 0 #a5a5a5,
